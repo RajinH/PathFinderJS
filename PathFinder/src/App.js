@@ -1,23 +1,24 @@
 import logo from './logo.svg';
+import Node from './components/Node';
+import Grid from './components/Grid';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={'Wrapper'}>
+      <h1
+        style={{
+          textAlign: 'center',
+        }}
+      >
+        Pathfinding Visualiser
+      </h1>
+      <Grid
+        startPos={{ x: 5, y: 5 }}
+        endPos={{ x: 10, y: 10 }}
+        size={10}
+      ></Grid>
+      <button>Visualise</button>
     </div>
   );
 }
