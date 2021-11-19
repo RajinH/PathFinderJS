@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(15, 15, 15);
+}
+
+h1 {
+  text-align: center;
+  color: aliceblue;
+}
+
+button {
+  padding: 6px;
+  border-radius: 30px;
+  margin: 15px;
+  margin-left: 5px;
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+}
+
+.ManePane {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.ButtonPane {
+  justify-content: left;
+  margin: 0 auto;
+  max-width: 700px;
+  min-width: 700px;
+  background-color: rgb(26, 26, 26);
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.ButtonPane h1 {
+  font-size: 20px;
+  display: flex;
+  margin-left: 5px;
+}
+
+.ButtonPane button {
+  background-color: azure;
+  transition: all 0.05s ease-in-out;
+}
+
+.ButtonPane button:focus {
+  background-color: rgb(152, 188, 255);
+}
+
+.ButtonPane button:hover {
+  filter: brightness(85%);
+  transform: scale(1.15);
+}
+
+.ControlPane {
+  justify-content: left;
+  margin-left: -11%;
+  width: 180px;
+  margin-right: 50px;
+  height: 250px;
+  background-color: rgb(26, 26, 26);
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 10px;
+}
+
+.ControlPane h1 {
+  text-align: left;
+  margin-left: 10px;
+  margin-bottom: 40px;
+}
+
+.ControlPane button {
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  width: 150px;
+  flex-direction: column;
+  background-color: azure;
+  transition: all 0.05s ease-in-out;
+}
+
+.ControlPane button:focus {
+  background-color: rgb(152, 188, 255);
+}
+
+.ControlPane button:focus {
+  background-color: rgb(152, 188, 255);
+}
+
+.ControlPane button:hover {
+  filter: brightness(85%);
+  transform: scale(1.15);
+}
