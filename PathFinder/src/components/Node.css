@@ -1,24 +1,35 @@
 .Node {
-  background-color: rgb(219, 219, 219);
-  border: 1.25px solid rgb(255, 255, 255);
-  width: 30px;
-  height: 30px;
+  background-color: aliceblue;
+  width: 32px;
+  height: 32px;
   display: inline-block;
   margin-right: 2.5px;
   margin-left: 2.5px;
   transition: all 0.05s ease-in-out;
   border-radius: 8px;
+  box-shadow: 0px 5px #808080;
+}
+
+.Node:hover {
+  transform: scale(0.9);
+  filter: brightness(75%);
+  box-shadow: 0px 3px #4b4b4b;
 }
 
 .IsStart {
   background-color: rgb(0, 255, 0);
+  box-shadow: 0px 5px #045a0b;
+}
+
+.IsStart:hover {
+  box-shadow: 0px 3px #045a0b;
 }
 
 .IsEnd {
   background-color: rgb(255, 0, 0);
+  box-shadow: 0px 5px #5a0404;
 }
 
-.Node:hover {
-  transform: scale(1.25);
-  filter: brightness(75%);
+.IsEnd:hover {
+  box-shadow: 0px 3px #5a0404;
 }
