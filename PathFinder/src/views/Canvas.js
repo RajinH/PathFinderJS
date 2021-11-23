@@ -16,6 +16,12 @@ function Canvas() {
         startPos={{ x: 1, y: 1 }}
         endPos={{ x: 20, y: 20 }}
       ></Grid>
+      <div className={"ButtonPane"}>
+        <h1>Algorithms to try!</h1>
+        <button>A* Algorithm</button>
+        <button>Dijkstra's Algorithm</button>
+        <button>A* (w/ Jump Point Search) Algorithm </button>
+      </div>
     </div>
   );
 }
